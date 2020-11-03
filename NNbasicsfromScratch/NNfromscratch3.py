@@ -29,7 +29,7 @@ def spiral_data(points, classes):
         y[ix] = class_number
     return X, y
 
-## Lading the data
+## Loading the data
 X,y = spiral_data(100, 3)
 
 #Creating Layer and Activation function(ReLu)
